@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@font-face{
+	font-family: 'Opens';
+	src: url('../Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
+}
 *{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	text-decoration: none;
 	font-size: inherit;
+	font-family: 'Opens';
 }
 html{
 	scroll-behavior: smooth;
@@ -221,10 +225,11 @@ body{
 .beneficios{
 	width: 100%;
 	min-height: auto;
-	background-image: url(../IMG/IMG_36.PNG);
+	/*background-image: url(../IMG/IMG_36.PNG);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
+	background-color: rgba(0, 0, 0, .5);
 	padding-bottom: 2.5rem;
 	position: relative;
 	z-index: 5;
@@ -366,6 +371,7 @@ body{
 	margin-right: .5rem;
 	position: relative;
 	top: .5rem;
+	z-index: 20;
 }
 .footer .a{
 	color: black;
